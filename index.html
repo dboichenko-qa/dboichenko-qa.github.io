@@ -84,8 +84,8 @@
     /* ===== Hero ===== */
     .hero {
       display: grid;
-      grid-template-columns: clamp(240px, 26vw, 300px) 1fr;
-      gap: clamp(32px, 5vw, 64px);
+      grid-template-columns: 180px 1fr;
+      gap: 36px;
       align-items: end;
       padding-bottom: 48px;
       border-bottom: 1px solid var(--rule-strong);
@@ -109,7 +109,7 @@
       inset: 0;
       border-radius: 12px;
       border: 1px solid rgba(0,0,0,0.06);
-      background: linear-gradient(180deg, rgba(255, 91, 31, 0.10), rgba(138, 138, 134, 0.12));
+      background: linear-gradient(155deg, rgba(255, 91, 31, 0.28) 0%, rgba(255, 91, 31, 0.10) 45%, rgba(120, 118, 112, 0.22) 100%);
       mix-blend-mode: multiply;
       pointer-events: none;
     }
@@ -423,7 +423,7 @@
     @media (max-width: 900px) {
       :root { --size-display: 40px; }
 
-      .page { padding: 48px 20px 40px; }
+      .page { padding: 48px 20px 48px; }
 
       .hero {
         grid-template-columns: 1fr;
@@ -573,6 +573,14 @@
               </div>
 
             </div>
+          </div>
+        </section>
+
+        <section class="fade-in d4">
+          <span class="label section-label">Availability</span>
+          <div class="section-body prose">
+            <p>Open to ongoing remote contracts. Comfortable with asynchronous work across time zones, structured task queues, and detailed annotation guidelines — the way most evaluation and labeling work is organized in practice.</p>
+            <p>I work carefully and consistently, follow rubrics closely, and flag ambiguity rather than guessing. Reliable turnaround and clear communication on every task.</p>
           </div>
         </section>
 
